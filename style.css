@@ -54,8 +54,22 @@ Template: enfold
   padding-bottom:14px;
 }
 
-.ubermenu #menu-item-search{
+/*.ubermenu #menu-item-search{
   display:none;
+}*/
+
+/*styling to move search down next to uber menu*/
+#menu-item-search{
+    float:right;
+	position: relative;
+	top: 65px;
+}
+#menu-item-search > a{
+    padding:8px 10px;
+    display:block;
+}
+#menu-item-search > a:hover{
+    text-decoration:none;
 }
 
 #header_main,
