@@ -96,7 +96,7 @@ Template: enfold
 }
 
 /*move uber main main links to denter of logo*/
-.ubermenu-nav li#menu-item-28, .ubermenu-nav li#menu-item-29, .ubermenu-nav li#menu-item-30, .ubermenu-nav li#menu-item-31, .ubermenu-nav li#menu-item-32, .ubermenu-nav li#menu-item-33{
+#menu-item-3384, #menu-item-3385, #menu-item-3389, #menu-item-3390, #menu-item-3407{
 	padding-top: 55px;
 }
 
