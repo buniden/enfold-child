@@ -7,3 +7,5 @@
 //add_action( 'init' , 'remove_avia_search' );
 
 add_theme_support( 'deactivate_layerslider' );
+
+add_theme_support('avia_template_builder_custom_css');
