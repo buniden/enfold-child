@@ -87,14 +87,13 @@ Template: enfold
 /*****************************
  General Custom CSS **********
  ******************************/
-
 /*remove header logo*/
 #header_main{
 	display: none;
 }
 
 /*move uber main main links to denter of logo*/
-#menu-item-3384, #menu-item-3385, #menu-item-3389, #menu-item-3390, #menu-item-3407{
+#menu-item-3384, #menu-item-3385, #menu-item-3389, #menu-item-3390, #menu-item-3407, #menu-item-3454{
 	padding-top: 55px;
 }
 
@@ -102,6 +101,53 @@ Template: enfold
 /*resize video slider on the home page*/
 .avia-builder-el-0.av-minimum-height-100 .container, .avia-builder-el-0.avia-fullscreen-slider .avia-slideshow {
     height: 600px !important;
+}
+
+/*home page video button*/
+.hp-video-button {
+	padding-top: 40px;
+}
+
+/*home page success stories*/
+#success-stories-wrapper{
+	max-width: 100%;
+	width: 840px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.success-stories-box{
+	width: 32%;
+	float: left;
+	margin-right: 1.5%;
+}
+
+.success-stories-box:last-of-type {
+	margin-right: 0;
+}
+
+.success-stories-box img {
+	display: block;
+	max-width: 100%;
+}
+
+.text-box{
+	background-color: #edf7f6;
+}
+
+.text-box:hover{
+	background-color: #fdb813;
+}
+
+.text-box p{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#header_main_alternate{
+	background-color: white;
 }
 
 /*
