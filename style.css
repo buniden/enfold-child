@@ -95,9 +95,12 @@ Template: enfold
 /*move uber main main links to denter of logo*/
 #menu-item-3384, #menu-item-3385, #menu-item-3389, #menu-item-3390, #menu-item-3407, #menu-item-3454{
 	padding-top: 55px;
+	padding-bottom: 19px;
 }
 
-
+#menu-item-3384:hover, #menu-item-3389:hover, #menu-item-3407:hover, #menu-item-3454:hover {
+	border-bottom: 4px solid #fdb813;
+}
 /*resize video slider on the home page*/
 .avia-builder-el-0.av-minimum-height-100 .container, .avia-builder-el-0.avia-fullscreen-slider .avia-slideshow {
     height: 600px !important;
@@ -119,7 +122,7 @@ Template: enfold
 .success-stories-box{
 	width: 32%;
 	float: left;
-	margin-right: 1.5%;
+	margin-right: 2%;
 }
 
 .success-stories-box:last-of-type {
@@ -148,6 +151,19 @@ Template: enfold
 
 #header_main_alternate{
 	background-color: white;
+}
+
+/***********
+hr styles
+***********/
+hr.style-custom {
+    width: 50px;
+}
+
+hr.style-custom-center {
+    width: 50px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 /*
