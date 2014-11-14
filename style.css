@@ -126,6 +126,12 @@ h4{
     border-top: 4px solid #fdb813 !important;
 }
 
+.ubermenu .ubermenu-item.ubermenu-item-3592 > .ubermenu-target, .ubermenu .ubermenu-item.ubermenu-item-3576 > .ubermenu-target, .ubermenu .ubermenu-item.ubermenu-item-3577 > .ubermenu-target {
+    color: #FDB913;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
 /*resize video slider on the home page*/
 .avia-builder-el-0.av-minimum-height-100 .container, .avia-builder-el-0.avia-fullscreen-slider .avia-slideshow {
     height: 600px !important;
