@@ -110,14 +110,14 @@ h4{
 	display: none;
 }
 
-/*move uber main main links to denter of logo*/
+/*move uber main main links to center of logo*/
 #menu-item-3384, #menu-item-3385, #menu-item-3389, #menu-item-3390, #menu-item-3407, #menu-item-3454{
 	padding-top: 55px;
-	padding-bottom: 20px;
+	padding-bottom: 19px;
 }
 
 /*add hover below main nav items*/
-#menu-item-3384:hover, #menu-item-3389:hover, #menu-item-3454:hover {
+#menu-item-3384:hover, #menu-item-3389:hover{
 	border-bottom: 4px solid #fdb813;
 }
 
@@ -126,6 +126,7 @@ h4{
     border-top: 4px solid #fdb813 !important;
 }
 
+/*styles for sub menu "solutions" links*/
 .ubermenu .ubermenu-item.ubermenu-item-3592 > .ubermenu-target, .ubermenu .ubermenu-item.ubermenu-item-3576 > .ubermenu-target, .ubermenu .ubermenu-item.ubermenu-item-3577 > .ubermenu-target {
     color: #FDB913;
 	text-transform: uppercase;
