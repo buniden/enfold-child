@@ -70,9 +70,9 @@ h4{
   padding-bottom:14px;
 }
 
-/*.ubermenu #menu-item-search{
-  display:none;
-}*/
+/**********************
+Custom Uber Menu Styles
+***********************/
 
 /*styling to move search down next to uber menu*/
 #menu-item-search{
@@ -102,16 +102,13 @@ h4{
   border-bottom:none;
 }
 
-/*****************************
- General Custom CSS **********
- ******************************/
 /*remove header logo*/
 #header_main{
 	display: none;
 }
 
 /*move uber main main links to center of logo*/
-#menu-item-3384, #menu-item-3385, #menu-item-3389, #menu-item-3390, #menu-item-3407, #menu-item-3454{
+#menu-item-3384, #menu-item-3385, #menu-item-3389, #menu-item-3390, #menu-item-3407, #menu-item-3454, #menu-item-3598{
 	padding-top: 55px;
 	padding-bottom: 19px;
 }
@@ -132,6 +129,9 @@ h4{
 	text-transform: uppercase;
 	font-weight: bold;
 }
+/*****************************
+ General Custom CSS **********
+ ******************************/
 
 /*resize video slider on the home page*/
 .avia-builder-el-0.av-minimum-height-100 .container, .avia-builder-el-0.avia-fullscreen-slider .avia-slideshow {
