@@ -1,0 +1,5 @@
+10-31-2014
+Edited file in includes/admin/register-widget-area, replaced all h3 tags with h3title
+
+11-01-01
+Moved all custom css from enfold/css/custom.css to enfold-child/style.css

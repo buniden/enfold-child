@@ -166,18 +166,21 @@ Custom Uber Menu Styles
 	color: #96C9D0;
 }
 
+.about-indemand-top{
+	margin: 1em 0px;
+}
 /*home page about indemand title*/
-.about-indemand-title p {
-	font-family: "Open Sans","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 32px;
-	color: #000000;
+.about-indemand-title{
+	font: 32px "Open Sans","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: white;
+	line-height: 1em;
 }
 
 /*home page about indemand p*/
-.about-indemand {
+.about-indemand{
 	font-family: "Open Sans","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 19px;
-	color: #000000;
+	color: white;
 }
 
 /*home page about indemand video button*/
