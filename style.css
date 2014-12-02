@@ -215,6 +215,11 @@ Custom Uber Menu Styles
     color: #FDB913;
 }
 
+#top .avia-button.avia-color-light {
+    background: #ffffff;
+    border: 3px solid #fdb913;
+    color: #fdb913;
+}
 
 /*home page call to action header*/
 .iconbox_content header.entry-content-header h3.iconbox_content_title  {
@@ -277,10 +282,22 @@ Custom Uber Menu Styles
 .success-stories-box img {
 	display: block;
 	max-width: 100%;
+	height: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.success-stories-box p{
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .text-box{
 	background-color: #edf7f6;
+	margin-top: 0;
+	padding: 10px;
+	position: relative;
+	bottom: 5px;
 }
 
 .text-box:hover{
@@ -298,6 +315,7 @@ Custom Uber Menu Styles
 	background-color: white;
 }
 
+/*testimonials padding between header and testimonials*/
 .testimonials-heading{
 	padding-top: 50px;
 }
