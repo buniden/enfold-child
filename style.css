@@ -166,6 +166,7 @@ Custom Uber Menu Styles
 	color: #96C9D0;
 }
 
+/*home page see how it works section*/
 .about-indemand-top{
 	margin: 1em 0px;
 }
@@ -214,7 +215,48 @@ Custom Uber Menu Styles
     color: #FDB913;
 }
 
-/*home page success stories*/
+
+/*home page call to action header*/
+.iconbox_content header.entry-content-header h3.iconbox_content_title  {
+	font-family: 21px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #2C92AD;
+	text-transform: capitalize;
+	padding-top: 8px;
+}
+
+/*home page call to action p*/
+.homepage-call-to-action div.iconbox_content div.iconbox_content_container {
+	font-family: 13px "Open Sans","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #666666;
+}
+
+/*home page call to action a*/
+.homepage-call-to-action .iconbox_content .iconbox_content_container p a {
+	font: 12px 13px;
+	color: #96C9D0;
+}
+
+.homepage-call-to-action .iconbox_icon.heading-color {
+		color: #2C92AD;
+}
+
+/*home page case studies and testimonials titles*/
+.case-studies-title, .testimonials-title{
+	text-align: center;
+	text-transform: uppercase;
+	color: #FDB913;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.case-studies-heading h3, .testimonials-heading h3 {
+	margin-top: 0;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2em;
+}
+
+/*case-studies images and links*/
 #success-stories-wrapper{
 	max-width: 100%;
 	width: 840px;
@@ -258,6 +300,10 @@ Custom Uber Menu Styles
 
 .testimonials-heading{
 	padding-top: 50px;
+}
+
+.el_before_av_one_half.column-top-margin, .el_after_av_one_half.el_before_av_one_full.column-top-margin, .home-testimonials.avia_start_animation{
+	margin-top: 0;
 }
 
 /***********
