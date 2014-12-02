@@ -110,7 +110,7 @@ Custom Uber Menu Styles
 /*move uber main main links to center of logo*/
 #menu-item-3384, #menu-item-3385, #menu-item-3624, #menu-item-3389, #menu-item-3390, #menu-item-3407, #menu-item-3454, #menu-item-3598{
 	padding-top: 55px;
-	padding-bottom: 19px;
+/*	padding-bottom: 19px;*/
 }
 
 .ubermenu .ubermenu-target{
@@ -140,10 +140,22 @@ Custom Uber Menu Styles
 /*****************************
  General Custom CSS **********
  ******************************/
+/*header bottom border*/
+#header {
+    border-bottom: 2px solid gray;
+}
+
 
 /*resize video slider on the home page*/
 .avia-builder-el-0.av-minimum-height-100 .container, .avia-builder-el-0.avia-fullscreen-slider .avia-slideshow {
     height: 600px !important;
+}
+
+/*resize registered symbol*/
+.register {
+	font-size: 16px;
+	position: relative;
+	bottom: 12px;
 }
 
 /*home page call to action header*/
@@ -298,6 +310,10 @@ Custom Uber Menu Styles
 	padding: 10px;
 	position: relative;
 	bottom: 5px;
+}
+
+.text-box a{
+	text-decoration: none;
 }
 
 .text-box:hover{
