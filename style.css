@@ -110,16 +110,8 @@ Custom Uber Menu Styles
 /*move uber main main links to center of logo*/
 #menu-item-3384, #menu-item-3385, #menu-item-3624, #menu-item-3389, #menu-item-3390, #menu-item-3407, #menu-item-3454, #menu-item-3598{
 	padding-top: 55px;
-/*	padding-bottom: 19px;*/
 }
 
-.ubermenu .ubermenu-target{
-    padding: 15px 19px !important;
-}
-
-.ubermenu-submenu ubermenu-submenu-id-3390 ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width{
-    padding: 15px 0px !important;
-}
 
 /*add hover below main nav items*/
 #menu-item-3384:hover, #menu-item-3389:hover{
@@ -142,7 +134,8 @@ Custom Uber Menu Styles
  ******************************/
 /*header bottom border*/
 #header {
-    border-bottom: 2px solid gray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
 }
 
 
