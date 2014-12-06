@@ -1,3 +1,6 @@
+/* @override 
+	http://localhost/indemandtesting/wp-content/plugins/ubermenu/assets/css/skins/vanilla.css?ver=4.0.1 */
+
 /*
 Theme Name: Enfold Child
 Description: Child theme to support UberMenu
@@ -109,7 +112,7 @@ Custom Uber Menu Styles
 
 /*move uber main main links to center of logo*/
 #menu-item-3384, #menu-item-3385, #menu-item-3624, #menu-item-3389, #menu-item-3390, #menu-item-3407, #menu-item-3454, #menu-item-3598{
-	padding-top: 55px;
+	padding-top: 35px;
 }
 
 
@@ -129,6 +132,7 @@ Custom Uber Menu Styles
 	text-transform: uppercase;
 	font-weight: bold;
 }
+
 /*****************************
  General Custom CSS **********
  ******************************/
@@ -177,7 +181,8 @@ Custom Uber Menu Styles
 }
 /*home page about indemand title*/
 .about-indemand-title{
-	font: 32px "Open Sans","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: 36px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 300;
 	color: white;
 	line-height: 1em;
 }
@@ -185,7 +190,7 @@ Custom Uber Menu Styles
 /*home page about indemand p*/
 .about-indemand{
 	font-family: "Open Sans","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 19px;
+	font-size: 22px;
 	color: white;
 }
 
@@ -227,8 +232,8 @@ Custom Uber Menu Styles
 }
 
 /*home page call to action header*/
-.iconbox_content header.entry-content-header h3.iconbox_content_title  {
-	font-family: 21px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+.iconbox_content header.entry-content-header h3.iconbox_content_title   {
+	font: 19px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #2C92AD;
 	text-transform: capitalize;
 	padding-top: 8px;
@@ -250,23 +255,37 @@ Custom Uber Menu Styles
 		color: #2C92AD;
 }
 
+/*about-tablet section*/
+.about-tablet h3 {
+	font: 31px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #585956;
+}
+
+.about-tablet h4 {
+	font: 22px "Open Sans","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #585956;
+}
+
 /*home page case studies and testimonials titles*/
 .case-studies-title, .testimonials-title{
 	text-align: center;
 	text-transform: uppercase;
 	color: #FDB913;
-	font-weight: bold;
+	font-weight: 600;
 	margin-bottom: 0;
+	font-size: 15px;
 }
 
 .case-studies-heading h3, .testimonials-heading h3 {
+	font: 31px "Open Sans","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 	margin-top: 0;
-	font-weight: normal;
+	font-weight: 600;
 	font-style: normal;
-	font-size: 2em;
+	font-size: 31px;
+	color: #585956;
 }
 
-/*case-studies images and links*/
+/*case-studies/success-stories images and links*/
 #success-stories-wrapper{
 	max-width: 100%;
 	width: 840px;
@@ -303,6 +322,7 @@ Custom Uber Menu Styles
 	padding: 10px;
 	position: relative;
 	bottom: 5px;
+	text-align: center;
 }
 
 .text-box a{
@@ -331,6 +351,38 @@ Custom Uber Menu Styles
 
 .el_before_av_one_half.column-top-margin, .el_after_av_one_half.el_before_av_one_full.column-top-margin, .home-testimonials.avia_start_animation{
 	margin-top: 0;
+}
+
+/*footer widgets*/
+ul#menu-footer-menu.menu li{
+	width: 250px;
+	border-bottom: 1px solid #fff;
+}
+
+ul#menu-footer-menu.menu li:last-of-type{
+	border-bottom: none;
+}
+
+.get-in-touch{
+	margin-bottom: 5px;
+}
+
+.get-in-touch span.av_font_icon.avia_animate_when_visible.av-icon-style-.av-no-color.avia-icon-pos-left.avia_start_animation.avia_start_delayed_animation, span.av_font_icon.avia_animate_when_visible.av-icon-style-.av-no-color.avia-icon-pos-left.avia_start_animation.avia_start_delayed_animation span.av-icon-char:first-of-type {
+	margin-right: 5px;
+}
+
+.get-in-touch span.av_font_icon.avia_animate_when_visible.av-icon-style-.av-no-color.avia-icon-pos-left.avia_start_animation.avia_start_delayed_animation, span.av_font_icon.avia_animate_when_visible.av-icon-style-.av-no-color.avia-icon-pos-left.avia_start_animation.avia_start_delayed_animation span.av-icon-char{
+	margin-right: 5px;
+}
+
+.get-in-touch-address2{
+	margin-left: 23px;
+}
+
+
+.textwidget, .tp_recent_tweets, .menu-footer-menu-container{
+	font-size: 12px;
+	margin-top: 1em;
 }
 
 /***********
@@ -381,10 +433,43 @@ Mobile Styles
 	}
 }
  
- Responsive Menu 
+/* Responsive Menu*/
 @media only screen and (max-width: 767px) {
     .ubermenu .ubermenu-item-level-0 > .ubermenu-target{
         padding-top:15px !important;
         padding-bottom:15px !important;
     }
 }
+
+/* Responsive Menu*/
+@media only screen and (max-width: 600px) {
+    .success-stories-box{
+    	width: 48%;
+    	float: left;
+    	margin-right: 2%;
+    }
+    
+    .success-stories-box:nth-of-type(3) {
+    	width: 48%;
+    	float: left;
+		margin-left: 24%;
+		margin-top: 1em;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+    .success-stories-box{
+    	width: 96%;
+    	float: left;
+    	margin-right: 2%;
+    	margin-top: 8px;
+    }
+    
+    .success-stories-box:nth-of-type(3) {
+    	width: 96%;
+    	float: left;
+    	margin-left: 0;
+		margin-top: 8px;    	
+    }
+}
+
