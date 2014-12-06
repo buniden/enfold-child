@@ -385,6 +385,16 @@ ul#menu-footer-menu.menu li:last-of-type{
 	margin-top: 1em;
 }
 
+/*how it works*/
+.how-it-works-med {
+	border-right: 1px solid gray;
+	padding-right: 10px;
+}
+
+.how-it-works-cta-left img, .how-it-works-cta-right img {
+	border-radius:50%;
+}
+
 /***********
 hr styles
 ***********/
