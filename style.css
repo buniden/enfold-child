@@ -111,7 +111,7 @@ Custom Uber Menu Styles
 }
 
 /*move uber main main links to center of logo*/
-#menu-item-3384, #menu-item-3385, #menu-item-3624, #menu-item-3389, #menu-item-3390, #menu-item-3407, #menu-item-3454, #menu-item-3598{
+#menu-item-3769, #menu-item-3385, #menu-item-3624, #menu-item-3389, #menu-item-3390, #menu-item-3407, #menu-item-3454, #menu-item-3598{
 	padding-top: 35px;
 }
 
@@ -385,6 +385,36 @@ ul#menu-footer-menu.menu li:last-of-type{
 	margin-top: 1em;
 }
 
+/*footer socket right*/
+#footer-socket-columns{
+	width: 1100px;
+	max-width: 100%;
+}
+.socket-left{
+	float: left;
+	width: 70%;
+}
+.socket-right{
+	float: right;
+	width: 30%;
+	text-align: right;
+}
+
+#footer-socket-menu li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 10px;
+}
+
+#footer-socket-menu li:after {
+	padding-left: 10px;
+    content: "\0002F";
+}
+
+#footer-socket-menu li:last-child:after {
+	padding-left: 0;
+    content: none;
+}
 /*how it works*/
 .how-it-works-med {
 	border-right: 1px solid gray;
@@ -448,6 +478,10 @@ Mobile Styles
     .ubermenu .ubermenu-item-level-0 > .ubermenu-target{
         padding-top:15px !important;
         padding-bottom:15px !important;
+    }
+    
+    #footer-socket-columns{
+    	width: 700px;
     }
 }
 
