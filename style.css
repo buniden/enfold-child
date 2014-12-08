@@ -353,7 +353,9 @@ Custom Uber Menu Styles
 	margin-top: 0;
 }
 
-/*footer widgets*/
+/*****************************
+footer widgets*********
+******************************/
 ul#menu-footer-menu.menu li{
 	width: 250px;
 	border-bottom: 1px solid #fff;
@@ -385,37 +387,40 @@ ul#menu-footer-menu.menu li:last-of-type{
 	margin-top: 1em;
 }
 
-/*footer socket right*/
-#footer-socket-columns{
-	width: 1100px;
-	max-width: 100%;
-}
-.socket-left{
-	float: left;
-	width: 70%;
-}
-.socket-right{
-	float: right;
-	width: 30%;
-	text-align: right;
+/*footer nav, active menu*/
+.widget_nav_menu ul:first-child>.current-menu-item,
+.widget_nav_menu ul:first-child>.current_page_item,
+.widget_nav_menu ul:first-child>.current-menu-ancestor{
+	padding-left: 0px;
+	left: 0;
+	top:0;
+	margin-top: 0;
+	padding-top:0;
+	width:100%;
+	box-shadow: none;
 }
 
-#footer-socket-menu li{
-	display: inline;
-	list-style-type: none;
-	padding-right: 10px;
-}
 
-#footer-socket-menu li:after {
+/**********************
+footer socket
+***********************/
+#socket .sub_menu_socket li{
+	border-left: none;
+	padding: 0 5px;
+}
+	
+#socket .sub_menu_socket li:after {
 	padding-left: 10px;
-    content: "\0002F";
-}
+    content: "\002F";
+} 
 
-#footer-socket-menu li:last-child:after {
+#socket .sub_menu_socket li:last-child:after {
 	padding-left: 0;
     content: none;
 }
-/*how it works*/
+/************************
+how it works page
+************************/
 .how-it-works-med {
 	border-right: 1px solid gray;
 	padding-right: 10px;
@@ -424,6 +429,8 @@ ul#menu-footer-menu.menu li:last-of-type{
 .how-it-works-cta-left img, .how-it-works-cta-right img {
 	border-radius:50%;
 }
+
+
 
 /***********
 hr styles
