@@ -422,14 +422,35 @@ footer socket
 /************************
 how it works page
 ************************/
-.how-it-works-med {
-	border-right: 1px solid gray;
-	padding-right: 10px;
+html.html_stretched.responsive.av-default-lightbox.html_header_top.html_logo_left.html_bottom_nav_header.html_menu_left.html_slim.html_header_sticky.html_header_shrinking.html_header_topbar_active.html_mobile_menu_phone.html_disabled.html_header_searchicon.html_content_align_center.html_entry_id_3704.avia_desktop.js_active.avia_transform.avia_transform3d.avia-mozilla.avia-mozilla-34.avia-mac body#top.page.page-id-3704.page-template-default.stretched.raleway.open_sans.shiftnav-enabled.shiftnav-lock div.shiftnav-wrap div#wrap_all div#main div#after_section_1.main_color.container_wrap.fullsize div.container div.template-page.content.av-content-full.alpha.units div.post-entry.post-entry-type-page.post-entry-3704 div.entry-content-wrapper.clearfix div.flex_column.av_one_half.first.avia-builder-el-3.el_after_av_section.el_before_av_one_half.avia-builder-el-first {
 }
 
-.how-it-works-cta-left img, .how-it-works-cta-right img {
-	border-radius:50%;
+#cta-left {
+	border-right: 1px solid gray;
+	width: 48%;
+	float: left;
+	margin-right: 1%;
+	padding-right: 3%;
 }
+
+#cta-right {
+	width: 48%;
+	float: left;
+	margin-left: 1%;
+	padding-left: 1%;
+}
+
+/*div .av_one_half {
+    margin-left: 3%;
+    width: 47%;
+}*/
+
+#cta-left img, #cta-right img {
+	border-radius:50%;
+	    -moz-border-radius:50%;
+	    -webkit-border-radius:50%;
+	    border: 3px solid white;
+ 	 }
 
 #mobile-logo{
 	display: none;
