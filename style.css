@@ -156,6 +156,9 @@ Custom Uber Menu Styles
 	bottom: 12px;
 }
 
+/*****************************
+Home Page Styles**************
+*****************************/
 /*home page call to action header*/
 .iconbox_content header.entry-content-header h3.iconbox_content_title  {
 	font-family: 21px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -345,15 +348,6 @@ Custom Uber Menu Styles
 	background-color: white;
 }
 
-/*testimonials padding between header and testimonials*/
-.testimonials-heading{
-	padding-top: 50px;
-}
-
-.el_before_av_one_half.column-top-margin, .el_after_av_one_half.el_before_av_one_full.column-top-margin, .home-testimonials.avia_start_animation{
-	margin-top: 0;
-}
-
 /*****************************
 footer widgets*********
 ******************************/
@@ -419,12 +413,23 @@ footer socket
 	padding-left: 0;
     content: none;
 }
-/************************
-how it works page
-************************/
-html.html_stretched.responsive.av-default-lightbox.html_header_top.html_logo_left.html_bottom_nav_header.html_menu_left.html_slim.html_header_sticky.html_header_shrinking.html_header_topbar_active.html_mobile_menu_phone.html_disabled.html_header_searchicon.html_content_align_center.html_entry_id_3704.avia_desktop.js_active.avia_transform.avia_transform3d.avia-mozilla.avia-mozilla-34.avia-mac body#top.page.page-id-3704.page-template-default.stretched.raleway.open_sans.shiftnav-enabled.shiftnav-lock div.shiftnav-wrap div#wrap_all div#main div#after_section_1.main_color.container_wrap.fullsize div.container div.template-page.content.av-content-full.alpha.units div.post-entry.post-entry-type-page.post-entry-3704 div.entry-content-wrapper.clearfix div.flex_column.av_one_half.first.avia-builder-el-3.el_after_av_section.el_before_av_one_half.avia-builder-el-first {
+
+/*****************************
+testimonials padding between 
+header and testimonials******
+*****************************/
+.testimonials-heading{
+	padding-top: 50px;
 }
 
+.el_before_av_one_half.column-top-margin, .el_after_av_one_half.el_before_av_one_full.column-top-margin, .home-testimonials.avia_start_animation{
+	margin-top: 0;
+}
+
+
+/************************
+how it works page********
+************************/
 #cta-left {
 	border-right: 1px solid gray;
 	width: 48%;
@@ -461,7 +466,7 @@ Misc. Headers
 ********************/
 .about-content h2{
 	font: 40px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
-	color: #000000;
+	color: #ffffff !important;
 	line-height: 45px;
 	font-weight: 200;
 	text-align: center;
@@ -500,6 +505,42 @@ hr.style-custom-center {
     width: 50px;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+
+/********************
+****Video Styles****
+*********************/
+.video_center {
+	text-align: center;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+	width: 225px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }
 
 /*
