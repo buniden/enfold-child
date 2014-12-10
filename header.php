@@ -69,4 +69,4 @@ wp_head();
 
 	<?php do_action('ava_after_main_container'); ?>
 	
-<div id="mobile-logo"><img src="http://localhost/indemandtesting/wp-content/uploads/2014/11/InDemand-Interpreting-Logo-edit.png"></div>
+<div id="mobile-logo"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/InDemand-Interpreting-Logo.png"></div>

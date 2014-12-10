@@ -183,7 +183,7 @@ Custom Uber Menu Styles
 /*home page about indemand title*/
 .about-indemand-title{
 	font: 36px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-weight: 300;
+	font-weight: 200;
 	color: white;
 	line-height: 1em;
 }
@@ -248,7 +248,7 @@ Custom Uber Menu Styles
 
 /*home page call to action a*/
 .homepage-call-to-action .iconbox_content .iconbox_content_container p a {
-	font: 12px 13px;
+	font: 12px;
 	color: #96C9D0;
 }
 
@@ -454,6 +454,39 @@ html.html_stretched.responsive.av-default-lightbox.html_header_top.html_logo_lef
 
 #mobile-logo{
 	display: none;
+}
+
+/********************
+Misc. Headers
+********************/
+.about-content h2{
+	font: 40px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #000000;
+	line-height: 45px;
+	font-weight: 200;
+	text-align: center;
+}
+
+.about-content p {
+	font: 19px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #494949;
+	line-height: 29px;
+	font-weight: 400;
+}
+
+.about-importance h2{
+	font: 40px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #ffffff !important;
+	line-height: 45px;
+	font-weight: 200;
+	text-align: center;
+}
+
+.about-importance p{
+	font: 19px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #494949;
+	line-height: 29px;
+	font-weight: 400;
 }
 
 /***********
