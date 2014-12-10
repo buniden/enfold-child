@@ -17,7 +17,7 @@ Template: enfold
 /*****************************
 General Styles****************
 *****************************/
-h2{
+/*h2{
 	font-family: 13.5px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #FDB913 !important;
 }
@@ -30,8 +30,11 @@ h3{
 h4{
 	font-family: 20px "Open Sans","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #000000;
-}
+}*/
 
+#mobile-logo{
+	display: none;
+}
 /*****************************
  UberMenu Styles*** **********
  ****************************/
@@ -455,39 +458,30 @@ how it works page********
 	    -moz-border-radius:50%;
 	    -webkit-border-radius:50%;
 	    border: 3px solid white;
- 	 }
+ }
 
-#mobile-logo{
-	display: none;
+div.avia_textblock.how-it-works-special p{
+	font-size: 15px;
+}
+
+div.avia_textblock.how-it-works-special h3{
+	font-size: 20px;
+	color: #fdbb13;
 }
 
 /********************
 Misc. Headers
 ********************/
-.about-content h2{
+div.avia_textblock.special-body h2{
 	font: 40px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #ffffff !important;
 	line-height: 45px;
 	font-weight: 200;
 	text-align: center;
+	text-transform: capitalize !important;
 }
 
-.about-content p {
-	font: 19px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
-	color: #494949;
-	line-height: 29px;
-	font-weight: 400;
-}
-
-.about-importance h2{
-	font: 40px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
-	color: #ffffff !important;
-	line-height: 45px;
-	font-weight: 200;
-	text-align: center;
-}
-
-.about-importance p{
+div.avia_textblock.special-body p {
 	font: 19px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #494949;
 	line-height: 29px;
