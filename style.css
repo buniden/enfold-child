@@ -609,6 +609,29 @@ Mobile Styles
     #footer-socket-columns{
     	width: 700px;
     }
+    
+    /*home page about indemand p*/
+    .about-indemand{
+    	padding-top: 10px;
+		font: 22px/33px "Open Sans","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+		color: white;
+    }
+    
+   .about-indemand-video-button {
+   		padding-top: 0px;
+   }
+   
+   /*learn more button in over 200 languages section*/
+   .content, .sidebar {
+       padding-bottom: 10px;
+   }
+   
+   /*footer list widget*/
+   ul#menu-footer-menu.menu li {
+       border-bottom: 1px solid #fff;
+       width: 100%;
+   }
+   
 }
 
 /* Responsive Menu*/
