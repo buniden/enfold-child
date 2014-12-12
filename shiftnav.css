@@ -1,0 +1,64 @@
+/* @override 
+	http://localhost/indemandtesting/wp-content/plugins/shiftnav-pro/assets/css/skins/standard-dark.css?ver=1.2.0.1
+	http://localhost/indemandtesting/wp-content/plugins/shiftnav-pro/pro/assets/css/shiftnav.css?ver=1.2.0.1 */
+
+
+.shiftnav.shiftnav-skin-standard-dark {
+    font-size: 13px;
+    line-height: 1.3em;
+}
+.shiftnav.shiftnav-skin-standard-dark, .shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu {
+    background: none 0 0 repeat scroll #F1F9F7;
+    color: #eee;
+}
+.shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu ul.sub-menu {
+    background: none 0 0 repeat scroll #F1F9F7;
+    color: #ccc;
+}
+.shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu li.menu-item > .shiftnav-target {
+    border-bottom: 1px solid #111;
+    border-top: 1px solid #313131;
+    color: #eee;
+    display: block;
+/*    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);*/
+	background-color: #F1F9F7;
+}
+.shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu > li.menu-item.shiftnav-highlight > .shiftnav-target {
+    color: #35ac6a;
+}
+.shiftnav.shiftnav-nojs.shiftnav-skin-standard-dark ul.shiftnav-menu li.menu-item > .shiftnav-target:hover, .shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu li.menu-item.shiftnav-active > .shiftnav-target, .shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu li.menu-item.shiftnav-in-transition > .shiftnav-target, .shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu li.menu-item.current-menu-item > .shiftnav-target, .shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu > li.shiftnav-sub-accordion.current-menu-ancestor > .shiftnav-target, .shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu > li.shiftnav-sub-shift.current-menu-ancestor > .shiftnav-target, .shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu.shiftnav-active-highlight li.menu-item > .shiftnav-target:active, .shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu.shiftnav-active-on-hover li.menu-item > .shiftnav-target:hover {
+    background: none 0 0 repeat scroll #FDB913;
+    border-bottom-color: rgba(0, 0, 0, 0.8);
+    border-top-color: rgba(255, 255, 255, 0.4);
+    color: #eee;
+}
+.shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu > li.menu-item > .shiftnav-target {
+    border-top-color: #292929;
+    text-transform: uppercase;
+}
+.shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu ul.sub-menu li.menu-item > .shiftnav-target {
+}
+.shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu ul.sub-menu ul.sub-menu li.menu-item > .shiftnav-target {
+    padding-left: 50px;
+}
+.shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu ul.sub-menu ul.sub-menu ul.sub-menu li.menu-item > .shiftnav-target {
+    padding-left: 75px;
+}
+.shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu ul.sub-menu ul.sub-menu ul.sub-menu ul.sub-menu li.menu-item > .shiftnav-target {
+    padding-left: 100px;
+}
+.shiftnav.shiftnav-skin-standard-dark li.menu-item .shiftnav-submenu-activation {
+    background: none 0 0 repeat scroll #F1F9F7;
+    border-bottom: 1px solid #111;
+    border-top: 1px solid #313131;
+}
+.shiftnav.shiftnav-skin-standard-dark li.menu-item .shiftnav-submenu-activation:hover {
+    background: none 0 0 repeat scroll #F1F9F7;
+}
+.shiftnav.shiftnav-skin-standard-dark ul.shiftnav-menu li.shiftnav-retract .shiftnav-target {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 12px;
+    text-align: right;
+    text-transform: uppercase;
+}

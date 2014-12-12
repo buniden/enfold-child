@@ -9,3 +9,17 @@
 //add_theme_support( 'deactivate_layerslider' );
 
 add_theme_support('avia_template_builder_custom_css');
+
+add_action( 'wp_head', 'enfold_customization_add_magnific_handler' );
+function enfold_customization_add_magnific_handler() {
+	?>
+	<script type = "text/javascript">
+	jQuery(document).ready(function() {
+		jQuery('a[rel=magnific]').magnificPopup({
+			type: 'inline',
+			preloader: false,
+		});
+	});
+	</script>
+<?php
+}

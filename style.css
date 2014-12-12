@@ -129,15 +129,32 @@ Custom Uber Menu Styles
 /*styles for sub menu "solutions" links*/
 .ubermenu .ubermenu-item.ubermenu-item-3592 > .ubermenu-target, .ubermenu .ubermenu-item.ubermenu-item-3576 > .ubermenu-target, .ubermenu .ubermenu-item.ubermenu-item-3577 > .ubermenu-target {
     color: #FDB913;
-	text-transform: uppercase;
 	font-weight: bold;
 }
 
-h2.resources-um{
+
+.menu-item-search-dropdown a, .menu-item-search-dropdown{
     color: #FDB913;
-	font-size: 14px;
 }
 
+input#searchsubmit.button.avia-font-entypo-fontello{
+	background-color: #FDB913;
+	border-color: #512632;
+	color: #ffffff;	
+}
+
+.resources-um h2 {
+    color: #FDB913;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.resources-um p{
+    color: #FDB913;
+	font-size: 14px;
+	text-align: center;
+}
 /*****************************
  General Custom CSS **********
  ******************************/
@@ -145,6 +162,11 @@ h2.resources-um{
 #header {
     border-bottom-style: solid;
     border-bottom-width: 1px;
+}
+
+/*header title background*/
+div#main div.stretch_full.container_wrap.alternate_color.light_bg_color.title_container {
+	background-color: #ABDDE1;
 }
 
 
@@ -348,6 +370,21 @@ Home Page Styles**************
 	padding-bottom: 1em;
 }
 
+a.hospital-link {
+	color: #585956;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+a:hover.hospital-link {
+	color: #585956;
+}
+
+.state{
+	text-transform: capitalize;
+	font-weight: normal;
+}
+
 #header_main_alternate{
 	background-color: white;
 }
@@ -470,6 +507,10 @@ div.avia_textblock.how-it-works-special h3{
 	color: #fdbb13;
 }
 
+.what-does-it-mean.av-inherit-size h2.av-special-heading-tag{
+	text-transform: capitalize;
+}
+
 /********************
 Misc. Headers
 ********************/
@@ -559,8 +600,14 @@ Mobile Styles
 @media only screen and (max-width: 1100px) {
   /* Add your Mobile Styles here */
 	.ubermenu .ubermenu-colgroup .ubermenu-column, .ubermenu .ubermenu-custom-content-padded, .ubermenu .ubermenu-nonlink, .ubermenu .ubermenu-retractor, .ubermenu .ubermenu-submenu-padded, .ubermenu .ubermenu-submenu-type-stack > .ubermenu-item-normal > .ubermenu-target, .ubermenu .ubermenu-target, .ubermenu .ubermenu-widget, .ubermenu-responsive-toggle {
-	    padding: 15px 10px !important;
+	    padding: 15px 8px !important;
 	}
+	
+	/*move uber main main links to center of logo*/
+/*	#menu-item-3769, #menu-item-3385, #menu-item-3624, #menu-item-3389, #menu-item-3390, #menu-item-3407, #menu-item-3920, #menu-item-3598{
+		padding-top: 50px;
+		padding-bottom: 2px;
+	}*/
 }
 
 /*Uber Menu*/
