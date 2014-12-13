@@ -10,6 +10,7 @@
 
 add_theme_support('avia_template_builder_custom_css');
 
+//http://www.kriesi.at/support/topic/menu-link-to-open-content-in-new-lightbox-magnific-popup/
 add_action( 'wp_head', 'enfold_customization_add_magnific_handler' );
 function enfold_customization_add_magnific_handler() {
 	?>
@@ -23,3 +24,4 @@ function enfold_customization_add_magnific_handler() {
 	</script>
 <?php
 }
+
