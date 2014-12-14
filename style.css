@@ -119,7 +119,7 @@ Custom Uber Menu Styles
 }
 
 /*move uber main main links to center of logo*/
-#menu-item-3769, #menu-item-3385, #menu-item-3624, #menu-item-3389, #menu-item-3390, #menu-item-3407, #menu-item-3920, #menu-item-3598{
+#menu-item-3769, #menu-item-4069, #menu-item-3624, #menu-item-3389, #menu-item-3390, #menu-item-3407, #menu-item-3920, #menu-item-3598{
 	padding-top: 35px;
 }
 
@@ -151,18 +151,29 @@ input#searchsubmit.button.avia-font-entypo-fontello{
 	color: #ffffff;	
 }
 
+/*resources menu styles*/
 .resources-um h2 {
     color: #FDB913;
 	font-size: 14px;
-	text-align: center;
+	text-align: left;
 	text-transform: uppercase;
 }
 
 .resources-um p{
-    color: #FDB913;
 	font-size: 14px;
-	text-align: center;
+	text-align: left;
 }
+
+.resources-um p a {
+	font-size: 14px;
+	text-align: left;
+}
+
+/*hide title but keep space*/
+h3.shiftnav-menu-title.shiftnav-site-title {
+	visibility: hidden;
+}
+
 /*****************************
  General Custom CSS **********
  ******************************/
@@ -515,13 +526,37 @@ div.avia_textblock.how-it-works-special h3{
 	color: #fdbb13;
 }
 
+/*slider title*/
+.vri-works-title.container_wrap.fullsize div.avia-slideshow.avia-slideshow-1.av-slider-scroll-down-active.avia-slideshow-no.scaling.av_fullscreen.avia-slide-slider ul.avia-slideshow-inner li.av-video-slide.av-video-service-vimeo.av-hide-video-controls.av-mute-video.av-loop-video.av-mobile-fallback-image.av-single-slide.slide-1.active-slide.av-video-events-bound div.avia-slide-wrap div.caption_fullwidth.av-slideshow-caption.caption_center.caption_center_framed.caption_framed div.container.caption_container div.slideshow_caption div.slideshow_inner_caption div.slideshow_align_caption h2.avia-caption-title{
+	text-transform: capitalize;
+}
+
 .what-does-it-mean.av-inherit-size h2.av-special-heading-tag{
 	text-transform: capitalize;
 }
 
+/**************************
+Blog Stylings-Risk Mgmt***
+*************************/
+.risk-mgmt-icons{
+	font-weight: bold;
+}
 /********************
 Misc. Headers
 ********************/
+/*page and blog post headings*/
+.template-page .entry-content-wrapper h1, .template-page .entry-content-wrapper h2 {
+    letter-spacing: 1px;
+    text-transform: capitalize;
+	color: #494949;
+}
+
+.main_color .heading-color, .main_color a.iconbox_icon:hover, .main_color h1, .main_color h2, .main_color h3, .main_color h4, .main_color h5, .main_color h6, .main_color .sidebar .current_page_item > a, .main_color .sidebar .current-menu-item > a, .main_color .pagination .current, .main_color .pagination a:hover, .main_color strong.avia-testimonial-name, .main_color .heading, .main_color .toggle_content strong, .main_color .toggle_content strong a, .main_color .tab_content strong, .main_color .tab_content strong a, .main_color .asc_count, .main_color .avia-testimonial-content strong, .main_color div .news-headline, #top .main_color .av-related-style-full .av-related-title, .main_color .av-default-style .av-countdown-cell-inner .av-countdown-time, .main_color .wp-playlist-item-meta.wp-playlist-item-title {
+    color: #494949;
+}
+
+
+/*special body content, how it works, interpreters, etc.*/
 div.avia_textblock.special-body h2{
 	font: 40px "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #ffffff !important;
@@ -536,6 +571,11 @@ div.avia_textblock.special-body p {
 	color: #494949;
 	line-height: 29px;
 	font-weight: 400;
+}
+
+div.avia_textblock.special-body a {
+	color: #494949;
+	font-weight: bold;
 }
 
 div.avia_textblock.resources h3 {
@@ -611,7 +651,7 @@ Mobile Styles
 	    padding: 15px 13px !important;
 	}
 	
-	#menu-item-3769, #menu-item-3385, #menu-item-3624, #menu-item-3389, #menu-item-3390, #menu-item-3407, #menu-item-3920, #menu-item-3598 {
+	#menu-item-3769, #menu-item-4069, #menu-item-3624, #menu-item-3389, #menu-item-3390, #menu-item-3407, #menu-item-3920, #menu-item-3598 {
 	    padding-top: 53px;
 	}
 }
@@ -622,7 +662,7 @@ Mobile Styles
 	    padding: 15px 10px !important;
 	}
 	
-	#menu-item-3769, #menu-item-3385, #menu-item-3624, #menu-item-3389, #menu-item-3390, #menu-item-3407, #menu-item-3920, #menu-item-3598 {
+	#menu-item-3769, #menu-item-4069, #menu-item-3624, #menu-item-3389, #menu-item-3390, #menu-item-3407, #menu-item-3920, #menu-item-3598 {
 	    padding-top: 53px;
 	}
 }
@@ -651,7 +691,7 @@ Mobile Styles
   /* Add your Mobile Styles here */
   /*remove extra padding at top*/
 	.html_header_top.html_header_sticky #main {
-		padding-top: 20px !important;
+		padding-top: 35px !important;
 	}
 	
 	#mobile-logo{
