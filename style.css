@@ -39,6 +39,11 @@ h4{
 #top .sidebar_left .widget_nav_menu ul ul li:before {
 content: "";
 }
+
+/*set background color for footer widget menu*/
+#menu-footer-menu .current_page_item a {
+	background-color: #585956;
+}
 /*****************************
  UberMenu Styles*** **********
  ****************************/
@@ -190,9 +195,9 @@ div#main div.stretch_full.container_wrap.alternate_color.light_bg_color.title_co
 
 
 /*resize video slider on the home page*/
-.avia-builder-el-0.av-minimum-height-100 .container, .avia-builder-el-0.avia-fullscreen-slider .avia-slideshow {
+/*.avia-builder-el-0.av-minimum-height-100 .container, .avia-builder-el-0.avia-fullscreen-slider .avia-slideshow {
     height: 600px !important;
-}
+}*/
 
 /*resize registered symbol*/
 .register {
@@ -578,16 +583,24 @@ div.avia_textblock.special-body a {
 	font-weight: bold;
 }
 
-div.avia_textblock.resources h3 {
+div.avia_textblock.resources h3, div.avia_textblock.interpreters h3 {
 	color: #fdbb13;
 	margin-bottom: 0px;
 }
 
-div.avia_textblock.resources p {
+div.avia_textblock.resources p, div.avia_textblock.interpreters p {
 	margin-top: 0px;
 }
 
 body .column-top-margin div.avia_textblock.resources{
+	margin-top: 0px;
+}
+
+.interpreters p {
+	margin-top: 0px;
+}
+.int-name {
+	color: #fdbb13;
 	margin-top: 0px;
 }
 
@@ -691,14 +704,14 @@ Mobile Styles
   /* Add your Mobile Styles here */
   /*remove extra padding at top*/
 	.html_header_top.html_header_sticky #main {
-		padding-top: 35px !important;
+		padding-top: 20px !important;
 	}
 	
 	#mobile-logo{
 		width: 245px;
 		margin-right: auto;
 		margin-left: auto;
-		padding-top: 10px;
+		padding-top: 25px;
 		padding-bottom: 10px;
 		display: block;
 	}
